@@ -1,0 +1,21 @@
+.menu {
+  font-size: 15px;
+}
+
+.menu-links {
+  text-decoration: none;
+  color: black;
+  font-family: "Arial Black";
+  margin-left:280px;
+  font-size:20px;
+}
+
+.menu-links:hover {
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Comic Sans MS";
+  background-color: darkgoldenrod;
+}

@@ -1,0 +1,26 @@
+.tourname{
+  text-align: center;
+  font-size:19px;
+  font-family: "Arial Black";
+  color:darkgoldenrod;
+}
+.tourimg{
+  margin-left:300px;
+}
+p{
+ font-size:20px;
+ font-weight: bold;
+}
+
+.btn{
+  background-color: orangered;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  padding:15px;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+}

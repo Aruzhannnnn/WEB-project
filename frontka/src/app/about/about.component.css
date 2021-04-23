@@ -1,0 +1,13 @@
+h1 {
+  display: flex;
+  justify-content: center;
+  background-color: darkgoldenrod;
+}
+
+p{
+  padding: 50px;
+  text-align: center;
+  background-color: rgb(152, 110, 192);
+  color: white;
+  font-size:19px;
+}

@@ -1,0 +1,16 @@
+<div *ngIf = "tour">
+  <p class="tourname">
+  {{tour.name}} <br>
+    {{tour.country}} <br>
+  </p>
+<p>
+  <img src="{{tour.image}}" class ="tourimg"><br>
+</p>
+  <p>About tour:</p>
+    {{tour.descfull}}
+  <h2>Duration:</h2>> {{tour.duration}} <br>
+  <h2>Inclusions:</h2>> {{tour.inclusions}} <br>
+  <h2>Exclusions:</h2>> {{tour.exclusions}} <br>
+</div>
+<br>
+<button (click)="goBack()"class="btn">Go back</button>
